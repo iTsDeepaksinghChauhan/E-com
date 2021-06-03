@@ -1,0 +1,32 @@
+/* E-com*/
+.ecom {
+  width: 30%;
+  padding-left: 1.2rem;
+}
+
+/* Cart*/
+.cart {
+  width: 10%;
+}
+
+.cart img {
+  width: 2rem;
+}
+
+/* profile*/
+.profile {
+  width: 10%;
+}
+
+.centerItems {
+  width: 50%;
+}
+.centerItems ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.centerItems li {
+  display: inline-block;
+  padding-right: 5rem;
+}
