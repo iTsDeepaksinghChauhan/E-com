@@ -1,6 +1,6 @@
 import React from "react";
-import {Img} from '../MyStyleComponent.js/images'
-import{Button} from '../MyStyleComponent.js/Button'
+import {Img} from '../MyStyleComponent/images'
+import{Button} from '../MyStyleComponent/Button'
 import './Products.css'
 
 const Product = (props) => {
