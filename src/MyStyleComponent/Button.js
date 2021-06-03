@@ -14,7 +14,10 @@ export const Button= styled.button`
     text-align: center;
     margin-bottom: 0.25rem;
     
-    
+    &:hover {
+    background-color: ${(props) => props.hoverbck};
+    color: ${(props) => props.hoverColor};
+  }
 
 
 
