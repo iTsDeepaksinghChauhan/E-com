@@ -15,14 +15,25 @@ const Product = (props) => {
         <span className='productPrice'> price: {price}</span>
         </div> 
         <div className='buttons'>
-        <Button bck='red' onClick={()=> props.count()}>Add to Cart </Button>
+        <Button bck='red' 
+        hoverbck=" #2699ab"
+        hoverColor="#FDD017"
+        onClick={()=> props.count()}>Add to Cart </Button>
      
         {/*<button onClick={() => props.removeItems(id)}> remove me </button>*/}
-        <Button bck='grey' onClick={() => props.findItem(id)}>Find </Button>
+        <Button bck='grey' 
+        hoverbck="coral"
+        hoverColor="white"
+        onClick={() => props.findItem(id)}>Find </Button>
         </div>
-        <Button btnWidth = '100%' bck='green' onClick={() => props.price(id, price)}>
-                  Increase Price
-                </Button>
+        <Button 
+         bck='green' 
+         hoverbck="#6b9658"
+         hoverColor="blue"
+         onClick={() => props.price(id, price)}
+         >
+          Increase Price
+          </Button>
 
       
     </div>
