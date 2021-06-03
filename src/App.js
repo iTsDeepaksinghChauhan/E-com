@@ -11,7 +11,7 @@ import Map from "./Product";
 import React , {useState, useEffect} from 'react';
 import Header from './MyComponent/Header';
 import data from "./data";
-import Product from './MyComponent.js/Product';
+import Product from './MyComponent/Product';
 
 
 
