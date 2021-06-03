@@ -1,6 +1,6 @@
 import React from 'react';
 import logoCart from './cart-logo.svg';
-import {Navbar} from '../MyStyleComponent.js/navbar';
+import {Navbar} from '../MyStyleComponent/navbar';
 import  './Header.css'
 const Header = (props)=>{
     return(
