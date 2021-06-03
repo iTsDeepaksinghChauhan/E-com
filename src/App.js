@@ -13,7 +13,7 @@ import Header from './MyComponent.js/Header';
 import data from "./data";
 import Product from './MyComponent.js/Product';
 
-
+const a;
 
 const App =()=>{
   const{products}=data;
